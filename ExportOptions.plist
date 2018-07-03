@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<false/>
+	<key>method</key>
+	<!--  企业级为： enterprise appstore为：app-store-->
+	<string>enterprise</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<!--  企业级为： P466F9M6G6 appstore为：EJEV229UWS-->
+	<string>P466F9M6G6</string>
+
+	<!--  企业级单独拥有的-->
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+
+	<!--  appstore单独拥有的-->
+	<!-- <key>uploadBitcode</key>
+	<false/>
+	<key>uploadSymbols</key>
+	<true/> -->
+
+
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN/EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+  <!--Real Class -->
+  <bean id="eatOrange" class="it.spring.liao.com.EatOrange"></bean>
+  <!--Real Class -->
+  <bean id="oneBll" class="BLLOne"></bean>
+  <!--Swift can't easy Pv & engineer can't easy Pv -->
+  <bean id="person" class="it.spring.liao.com.Person">
+    <property name="eat" ref="eatOrange"/>
+  </bean>
+</beans>
+
