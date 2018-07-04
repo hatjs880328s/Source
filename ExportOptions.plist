@@ -5,26 +5,21 @@
 	<key>compileBitcode</key>
 	<false/>
 	<key>method</key>
-	<!--  企业级为： enterprise appstore为：app-store-->
 	<string>enterprise</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.insupr.sourceTxt45</key>
+		<string>sourceTxt45_dis_profile</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iPhone Distribution</string>
 	<key>signingStyle</key>
-	<string>automatic</string>
+	<string>manual</string>
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
-	<!--  企业级为： P466F9M6G6 appstore为：EJEV229UWS-->
 	<string>P466F9M6G6</string>
-
-	<!--  企业级单独拥有的-->
 	<key>thinning</key>
 	<string>&lt;none&gt;</string>
-
-	<!--  appstore单独拥有的-->
-	<!-- <key>uploadBitcode</key>
-	<false/>
-	<key>uploadSymbols</key>
-	<true/> -->
-
-
 </dict>
 </plist>

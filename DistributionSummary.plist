@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>source.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>74B8B547F59380058C09255E4713735AEC68F017</string>
+				<key>dateExpires</key>
+				<string>2020/3/12</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>74B8B547F59380058C09255E4713735AEC68F017</string>
+						<key>dateExpires</key>
+						<string>2020/3/12</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Aspects.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>P466F9M6G6</string>
+						<key>name</key>
+						<string></string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>P466F9M6G6.com.insupr.sourceTxt45</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>P466F9M6G6</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>P466F9M6G6.com.insupr.sourceTxt45</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>source.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>88ef2472-4fb1-4dcd-8d85-1c5685c9ed70</string>
+				<key>name</key>
+				<string>sourceTxt45_dis_profile</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>P466F9M6G6</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
